@@ -18,44 +18,21 @@ TBC — Caner to confirm Shopify URL, Klaviyo account, ad platforms during onboa
 
 <!-- AUTO-SYNCED FROM ~/dev/ppaios-pp/references/client-roster.md — DO NOT EDIT BELOW THIS LINE; edit roster instead -->
 
-## 8. Niyama
+## 8. Niyama Wellness ✅
 
-- **Status:** active
-- **Tier:** sprint
-- **Started:** TBC. Drive: `AiSEONiyama 2.txt` + `AiSEONiyama.txt`.
-- **Window:** TBC
-- **Scope:** AI-driven SEO content engine. Wellness brand.
-- **Invoicing:**
-  - Fee: TBC
-  - Cadence: TBC
-  - Last invoice: TBC
-  - Channel: TBC
-- **Stakeholders:** TBC
-- **Tools:** TBC
-- **Open questions:**
-  - Sprint end?
-  - Volume target (X pages/month? Y keywords?)
-  - Their CMS — are we writing into Shopify, WordPress, headless?
+- **Status:** active ✅ — bundles strategy + flow mapping in flight
+- **Tier:** sprint retainer
+- **Brand:** Niyama Wellness — Yoga-focused health & wellness products
+- **Site:** [niyama-wellness.ca](https://www.niyama-wellness.ca/)
+- **Scope:** Bundles strategy + flow mapping (existing vs gaps), AI-driven SEO content engine, CRO, UGC + creator outreach (UK primary, US/CA/AU secondary)
+- **Stakeholders:**
+  - Founder: **Jillian Mariani** (`jillian@niyama-wellness.ca`) — same founder as Younited
+  - **POV Media** team: Alanna Wilson (`alanna@povmedia.ca`), Daly Davis (`Daly@povmedia.ca`)
+- **Recent activity** (per `crm://niyama` 2026-05-06):
+  - Bundles strategy call held 5 May with Alanna + Daly
+  - Flow mapping S4 scheduled today
+  - Site mint-colour homepage tweak requested
+- **Next steps:** complete flow mapping S4, define bundle SKUs + offer, hand off to creative
+- **Links:** [`notion://Niyama Dashboard`](https://www.notion.so/32623a47bdd98156a12cfec389ea7b24), [`notion://Niyama Wellness`](https://www.notion.so/32423a47bdd980db8b0ac9e023b7492f), [`notion://Niyama - Offer`](https://www.notion.so/32423a47bdd980d7b1dfde619ef5a369)
 
 ---
-
-## Cross-cutting open questions for Caner
-
-1. **Invoicing engine** — is the PP CRM (Supabase) handling invoicing today, or is it Stripe-only? Does PP need to draft invoices monthly, or is it triggered manually?
-2. **Default fee tier** — what does a typical PP retainer / sprint cost? Helps PP Sales benchmark new prospects.
-3. **Net-X payment terms** — Net 7? Net 14? Net 30?
-4. **Late-payment policy** — when does PP Account Manager flag a late client?
-5. **Renewal cadence** — sprints auto-renew? quarterly review?
-6. **Termination clause** — notice period?
-7. **Agreement template** — `CLIENT-ADDENDUM-TEMPLATE.md` exists at PPAIOS root — is this what each client signs, or do you have a separate MSA?
-
----
-
-## How to update this file
-
-1. Caner edits this file directly in Obsidian or any text editor.
-2. Run: `node ~/dev/ppaios/scripts/sync-client-roster.mjs` (TBC — to be authored next session).
-3. The script propagates: this file → each `~/dev/ppaios-{client}/brand-brain.md` (overwriting status/scope/invoicing sections only, preserving brand voice notes).
-4. Then `node ~/dev/ppaios/scripts/sync-to-houston.mjs` pushes to Houston runtime.
-
-PP Director's first-action list now includes reading this file, so any session starts with current scope context.
